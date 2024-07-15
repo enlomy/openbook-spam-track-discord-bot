@@ -11,5 +11,8 @@
     "strict": true,
     "strictNullChecks": true,
     "skipLibCheck": true
-  }
+  },
+  "exclude": [
+    "test.ts"
+  ]
 }

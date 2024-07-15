@@ -1,5 +1,7 @@
-import * as ping from "./ping";
+import * as snip from "./snip";
+// import * as snip from "./snip";
 
 export const commands = {
-  ping,
+  snip,
+  // snip
 };

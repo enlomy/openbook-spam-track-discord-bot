@@ -9,6 +9,7 @@ type DeployCommandsProps = {
 export async function deployCommands({ guildId }: DeployCommandsProps) {
   try {
     const commandsData = Object.values(commands).map((command) => command.data);
+    console.log(commandsData)
     const rest = new REST({ version: "10" }).setToken(config.DISCORD_TOKEN);
     console.log("Started refreshing application (/) commands.");
 
